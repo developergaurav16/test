@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+body {font-family: 'Titillium Web', sans-serif !important;}
+p, h1, h2, h3, h4, h5, h6, span, a {font-family: 'Titillium Web', sans-serif !important;}
+.site-header {padding: 10px 0;}
+.phone {display: flex;align-items: center;justify-content: end;gap: 15px;}
+.phone p {margin: 0;font-size: 20px;color: #39434D;font-weight: 400;}
+.phone p a {font-weight: 700;color: #39434D;}
+.site-header .row {align-items: center;}
+.mission-block {background: #39434C;padding: 55px 0;}
+.mission-block .mission-txt {text-align: center;color: #ffff;max-width: 1020px;margin: 0 auto;}
+.mission-block .mission-txt h2 {font-weight: 700;font-size: 40px;position: relative;}
+.mission-block .mission-txt p {font-weight: 300;font-size: 20px;line-height: 30px;color: #FFFFFF;margin-top: 40px;}
+.footer {background: #39434C;padding: 55px 0;}
+.footer .footer-txt {text-align: center;color: #ffff;max-width: 850px;margin: 0 auto;}
+.footer .footer-txt h2 {font-weight: 400;font-size: 48px;line-height: 60px;display: flex;justify-content: center;align-items: center;gap: 15px;margin-bottom: 10px;}
+.footer .footer-txt p {font-weight: 300;font-size: 20px;line-height: 30px;color: #FFFFFF;}
+.mission-block .box {color: #fff;padding-top: 40px;}
+.mission-block .box h4 {font-weight: 600;font-size: 24px;line-height: 30px;color: #FFFFFF;padding: 5px 0;}
+.mission-block .box p {font-weight: 300;font-size: 16px;line-height: 22px;color: #FFFFFF;margin: 0;}
+.mission-block .mission-txt h2:after {content: '';position: absolute;left: 0;right: 0;margin: auto;bottom: -20px;width: 60px;height: 3px;background: #FF4800;}
+.review-txt {text-align: center;max-width: 800px;margin: 0 auto;}
+.review-txt h2 {font-weight: 700;font-size: 36px;line-height: 140%;color: #39434C;position: relative;text-transform: uppercase;}
+.review-txt p {font-weight: 300;font-size: 20px;line-height: 30px;color: #39434C;margin-top: 30px;}
+.review-txt h2:after {content: '';position: absolute;left: 0;right: 0;margin: auto;bottom: -15px;width: 60px;height: 3px;background: #FF4800;}
+.cars {padding: 40px 0;}
+.review {padding: 100px 0 40px;}
+.banner {background: url(../images/BG.svg);background-size: cover;background-repeat: no-repeat;background-position: center center;padding: 50px 0;}
+.banner .form h2 {font-weight: 400;font-size: 40px;line-height: 44px;color: #39434D;}
+.banner .form h2 span {font-weight: 700;font-size: 40px;line-height: 44px;color: #FF4800;}
+.car-txt {background: #FFFFFF;box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);text-align: center;padding: 40px 0 25px;position: relative;top: 70px;border-bottom: 2px solid #3F454D;}
+.car-txt h4 {font-weight: 700;font-size: 20px;line-height: 30px;text-align: center;letter-spacing: 0.01em;color: #444444;}
+.car-txt p {font-weight: 600;font-size: 12px;line-height: 18px;text-align: center;color: #848C8D;margin: 3px 0 8px;}
+.car-txt a {font-weight: 700;font-size: 14px;line-height: 21px;text-align: center;letter-spacing: -0.02em;text-decoration-line: underline;color: #3F454D;}
+.car-box {position: relative;}
+.car-box img {position: absolute;top: 0;z-index: 9;right: 0;left: 0;margin: auto;height: 100px;object-fit: cover;}
+.car-box:hover .car-txt {border-bottom: 2px solid #ff4800;}
+.car-box:hover .car-txt a {color: #ff4800;}
+.review-box h1 {background: #7A929D;display: flex;width: 73px;height: 73px;border-radius: 50%;align-items: center;justify-content: center;font-weight: 400;font-size: 48px;line-height: 20px;color: #FFFFFF;}
+.review-box .rate p {background: #119922;border-radius: 18px;display: flex;width: 43px;height: 25px;align-items: center;font-weight: 700;font-size: 13px;margin: 0;line-height: 20px;color: #FFFFFF;justify-content: center;}
+.review-box .rate {display: flex;gap: 10px;align-items: center;padding: 20px 0 0;}
+.review-box p {font-weight: 400;font-size: 16px;line-height: 20px;color: #39434C;}
+.review-box h4 {font-weight: 700;font-size: 16px;line-height: 20px;color: #39434C;}
+.review-box {background: #FFFFFF;box-shadow: 5px 7px 0px rgba(0, 0, 0, 0.07);margin: 0 15px;padding: 50px 25px;}
+.slick-track {overflow: visible;}
+section.cars {background: #E5E5E5;}
+section.review {background: #E5E5E5;}
+.abc {width: 50%;padding: 0 15px;}
+.abc input {width: 100%;border: 0 !important;border-bottom: 1px solid #99B4CC !important;border-radius: 0 !important;font-weight: 400;font-size: 16px;line-height: 140% !important;color: #9A9FA4 !important;padding: 0 10px !important;height: 40px;margin-bottom: 20px !important;outline: 0 !important;}
+.abc input::placeholder {font-weight: 400;font-size: 16px;line-height: 140%;color: #9A9FA4;}
+.form form {margin-top: 50px;max-width: 500px;}
+.abd {padding: 0 15px;width: 100%;}
+.abd #submit {width: 100%;height: 46px;background: #FF4800;border-radius: 7px;BORDER: 0;color: #fff;outline: 0;}
+.abd textarea {width: 100%; border: 0;height: 120px;border-bottom: 1px solid #99B4CC;border-radius: 0;font-weight: 400;font-size: 16px;line-height: 140%; color: #9A9FA4; padding: 0 10px;margin-bottom: 20px;outline: 0;}
+.abd textarea::placeholder {font-weight: 400;font-size: 16px;line-height: 140%;color: #9A9FA4;}
+body .ui[class*="left icon"].input>input {padding: 0 10px !important;}
+body .ui.input {display: block; !important;}
+.abc input:focus, .abd textarea:focus {box-shadow: 0px 0px 0px 0px #fff;}
+.abc input:focus::placeholder, .abd textarea:focus::placeholder {color: #000;}
+.slick-track {margin-top: 40px;}
+.footer .footer-txt  ul {padding: 0;margin: 0;}
+.footer .footer-txt ul li {font-size: 18px;padding: 5px 0px;list-style: none;}
+
+
+
+@media screen and (max-width:767px){
+.image-banner img {width: 100%;margin-top: 40px;}
+.cars .col-md-3 {margin-bottom: 100px;}
+.footer .footer-txt h2 {font-size: 40px;line-height: 50px;}
+.review {padding: 40px 0 40px;}
+.phone {position: absolute;top: -40px;right: 0;gap: 5px;}
+.phone p {font-size: 18px;}
+
+}	
